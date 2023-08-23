@@ -30,7 +30,7 @@ const Teams = () => {
       <div className="container mx-auto mb-52 pt-16">
           <div className="mx-auto w-[80%]  md:w-[95%]">
             <img
-              src="src/assets/images/bg-quotes.png"
+              src="/src/assets/images/bg-quotes.png"
               alt="quotes"
               className=""
             />

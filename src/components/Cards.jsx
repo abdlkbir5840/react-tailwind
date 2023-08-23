@@ -7,7 +7,7 @@ const Cards = ({ descrpition, name, position, image }) => {
         <p className="font-normal">{descrpition}</p>
         <div className="flex felx-row items-center space-x-4">
           <img
-            src={`src/assets/images/${image}`}
+            src={`/src/assets/images/${image}`}
             alt="profile"
             className="rounded-full w-14"
           />
