@@ -6,7 +6,7 @@ function StayProductive() {
       <div className="container mx-auto">
         <div className="pt-16  grid grid-cols-1 space-y-8  md:space-x-10 md:grid-cols-2">
           <img
-            src="src/assets/images/illustration_stay_productive.png"
+            src="assets/images/illustration_stay_productive.png"
             alt="image"
             className="w-[90%] mx-auto"
           />
@@ -22,7 +22,7 @@ function StayProductive() {
             </p>
             <div className="flex flex-row space-x-4 border-b w-fit">
               <a href="">See how Frio works</a>
-              <img src="src/assets/images/icon_arrow.svg" alt="arrow" className="w-6 h-6 animate-moveRight" />
+              <img src="assets/images/icon_arrow.svg" alt="arrow" className="w-6 h-6 animate-moveRight" />
             </div>
           </div>
         </div>

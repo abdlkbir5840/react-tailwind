@@ -1,5 +1,5 @@
 import React from "react";
-import illustration_intro from "../assets/images/illustration_intro.png";
+import illustration_intro from "/assets/images/illustration_intro.png";
 const Landing = () => {
   return (
     <section className="bg-[#1c2230]">
@@ -28,8 +28,8 @@ const Landing = () => {
           </div>
         </div>
       </div>
-       <img src="src/assets/images/bg-curvy-desktop.svg" alt="curvy" className="w-full h-full hidden md:block"/>
-       <img src="src/assets/images/bg-curvy-mobile.svg" alt="curvy" className="w-full h-full md:hidden"/>
+       <img src="assets/images/bg-curvy-desktop.svg" alt="curvy" className="w-full h-full hidden md:block"/>
+       <img src="assets/images/bg-curvy-mobile.svg" alt="curvy" className="w-full h-full md:hidden"/>
     </section>
   );
 };

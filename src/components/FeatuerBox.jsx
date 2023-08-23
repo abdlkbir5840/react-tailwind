@@ -2,7 +2,7 @@ const FeatureBox = ({ icon, title, description }) => {
   return (
       <div className="mx-auto element-center flex-col w-[90%] h-60 space-y-6">
         <img
-          src={`src/assets/images/${icon}`}
+          src={`assets/images/${icon}`}
           alt="icon"
           className="w-24 h-28 object-contain"
         />

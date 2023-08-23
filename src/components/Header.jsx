@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "../assets/images/logo.svg";
+import logo from "/assets/images/logo.svg";
 
 const Header = () => {
   const [links, setLinks] = useState(["Featuers", "Team", "Sign In"]);

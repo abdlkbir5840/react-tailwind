@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="container mx-auto pt-64 md:pt-52 pb-24 text-white">
         <a href="/">
           <img
-            src="/src/assets/images/logo.svg"
+            src="assets/images/logo.svg"
             alt="logo"
             className="w-44 h-16 object-contain"
           />
