@@ -49,7 +49,7 @@ const Footer = () => {
                 className="flex items-center gap-4 mb-4 last-of-type:mb-0"
               >
                 <img
-                  src={`src/assets/images/${contact.image}`}
+                  src={`/assets/images/${contact.image}`}
                   alt="icon"
                   className="w-5 h-5 object-contain"
                 />
