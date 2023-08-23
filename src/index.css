@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: "Cairo", sans-serif;
+  font-family: "Lato", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  background-color: #181e2a;
+}
+
+@layer{
+
+  .element-center{
+    @apply flex justify-center items-center;
+  }
+  .element-between {
+    @apply flex justify-between items-center;
+  }
+  .btn-primary{
+    @apply font-bold rounded-full bg-blue-400 px-12 py-2 hover:bg-blue-500 md:px-20 md:py-4 transition-all duration-300;
+  }
+}
