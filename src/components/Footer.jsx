@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="mt-8 flex justify-between flex-wrap flex-col md:flex-row gap-8">
           <div className="flex items-start  gap-4 w-80 max-w-full">
             <img
-              src="/src/assets/images/icon_location.svg"
+              src="/assets/images/icon_location.svg"
               alt="location icon"
               className="w-5 h-5 object-contain"
             />
